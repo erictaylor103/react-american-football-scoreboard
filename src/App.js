@@ -6,7 +6,8 @@ import "./App.css";
 function App() {
   //TODO: STEP 2 - Establish your applictaion's state with some useState hooks.  You'll need one for the home score and another for the away score.
 
-  
+  const [homeScore, sethomeScore] = useState(0);
+  const [awayScore, setawayScore] = useState(0);
 
 
   return (
